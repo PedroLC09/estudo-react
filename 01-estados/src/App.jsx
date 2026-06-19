@@ -11,11 +11,12 @@ function App() {
 
   function incrementarSalario() {
     salario += 10
+    setRendimento(rendimento + 25)
     console.log("Novo salário: R$" + salario)
 
     // rendimento = 111111 <<<< nunca
 
-    setRendimento(20000)
+
   }
 
   return (
