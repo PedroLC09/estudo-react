@@ -3,6 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import Peba from './components/Peba'
+import Pepequeno from './components/Pepequeno'
+import Guilhermeportoes from './components/Guilhermeportoes'
+import Trajetopomar from './components/Trajetopomar'
 
 function App() {
   const [rendimento, setRendimento] = useState(12000)
@@ -22,6 +26,12 @@ function App() {
   return (
     <div className="cont-app">
       <h1>Estados e outras coisas</h1>
+        
+        <Peba />
+        <Pepequeno />
+        <Guilhermeportoes />
+        <Trajetopomar />
+      <hr />
       Salario: R$ {salario.toFixed(2).replace('.',',')}
       <p>
         Rendimento: R$ {rendimento}
