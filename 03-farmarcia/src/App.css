@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Pixel&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(249, 251, 253);
+  margin: 0;
+}
+
+.cont-header {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(211, 231, 231);
+}
+
+.cont-convite {
+  height: 50%;
+  background-color: blue;
+}
+
+.logo-farmarcia {
+  height: 145px;
+  width: 145px;
+}
+
+.logo-farluigi {
+  height: 125px;
+  width: 125px;
+}
+
+.logo-parceria {
+  height: 120px;
+  width: 120px;
+}
+
+.titulo-far {
+  font-size: 2.5rem;
+  font-family: 'Geist Pixel';
+  letter-spacing: 3px;
+
+}
+
+.subtitulo-far {
+  font-size: 1.8rem;
+  font-family: 'Geist Pixel';
+  letter-spacing: 3px;
+}
